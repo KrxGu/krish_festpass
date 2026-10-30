@@ -1,6 +1,6 @@
 # FestPass CI Assessment Evidence
 
-**Student Alias:** shubhk2  
+**Student Alias:** krxgu  
 **Class Code:** 001  
 **Challenge Code:** 00824  
 **Job Name:** festpass-ci  
@@ -12,7 +12,7 @@
 
 | Build # | Trigger / Cause | Commit ID | Commit Message | Result | Test Results | Published Products |
 |:---:|:---|:---|:---|:---:|:---:|:---|
-| **1** | Started by user `shubhk2` (Manual bootstrap) | `b2c52a5` | Configure my Jenkins assignment | **FAILURE** | 25 passed, 3 failed | `submission-evidence.csv` *(JAR gated)* |
+| **1** | Started by user `krxgu` (Manual bootstrap) | `b2c52a5` | Configure my Jenkins assignment | **FAILURE** | 25 passed, 3 failed | `submission-evidence.csv` *(JAR gated)* |
 | **2** | **Started by an SCM change** (Automatic polling) | `e728b2d` | Personalize my help introduction | **FAILURE** | 25 passed, 3 failed | `submission-evidence.csv` *(JAR gated)* |
 | **3** | **Started by an SCM change** (Automatic polling) | `551a1f6` | Fix seat cancellation by removing student from registration roster | **SUCCESS** | **28 passed, 0 failed** | `festpass.jar`, `build-info.txt`, `smoke-test.txt`, `submission-evidence.csv` |
 
@@ -81,7 +81,7 @@ Running `java -jar festpass.jar help` from the download directory:
 
 ```text
 $ java -jar festpass.jar help
-FestPass - campus event registration (shubhk2)
+FestPass - campus event registration (krxgu)
 Usage: java -jar build/festpass.jar [--data FILE] COMMAND
   add-event ID "TITLE" CAPACITY
   list
